@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #eee;
+    font-family: 'Roboto',sans-serif;
+    
+}
+#headerBlock {
+    background: #e40046;
+    height: 100px;
+}
+#headerBlock .marginleftandrightspace, 
+.logoandcartSection>article,
+#ContentSection>article{
+    width: 90%;
+    margin: 0 auto;
+}
+.topmenu p {
+    margin: 0px;
+    background:#c6003d !important;
+}
+.topmenu {
+    background:#c6003d !important;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    height: 30px;
+    line-height: 28px;
+    font-size: 12px;
+    
+}
+.leftpara {
+ width: 50%;
+ float: left;   
+}
+.rightulMenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    float: right;
+}
+.rightulMenu li {
+    display: inline-block;
+}
+.rightulMenu li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 12px;
+}
+.logoandcartSection>article .logo {
+    width: 18%;
+    float: left;
+    position: relative;
+    top: 18px;
+}
+.logoandcartSection>article .search {
+    width: 62%;
+    float: left;
+    line-height: 70px;
+    margin-top: 16px ;
+}
+.logoandcartSection>article .cart {
+    width: 20%;
+    float: right;
+    line-height: 70px;
+}
+#search {
+    width: 70%;
+    padding: 0 10px 0 32px;
+    border: none;
+    border: 2px;
+    background: whitesmoke;
+    color: #909090;
+    font-size:14px;
+    height:37px;
+    border-radius:2px 0px 0px 2px;
+    
+}
+.searchtext {
+    padding: 10px 34px;
+    background: #333;
+    color: #fff;
+    transition: all .2s;
+    border-radius: 0px 0px 0px 0px !important;
+    margin: 42px -253px;
+    z-index: 1;
+    position: relative;
+    top: 26px;
+    font-size: 14px;
+}
+#insidediv {
+    display: none;
+}
+.rightnavigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.rightnavigation li {
+    display: inline-block;
+}
+.rightnavigation li a {
+    padding: 26px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.fa-shopping-cart {
+  
+    font-size: 23px;
+    vertical-align: text-top;
+    padding-right: 11px;
+    color: #fff;
+    line-height: 17px;
+}
+.rightnavigation li:nth-child(2):hover{
+    background:#111;
+}
+.rightnavigation li:nth-child(2):hover>#insideDiv{
+    background:#111;
+    display:table-cell;
+    position: relative;
+}
+.fa-mobile{
+    font-size: 23px;
+    vertical-align: text-top;
+    padding-right: 11px;
+    color: #fff;
+    line-height: 17px;
+}
+/*ContentSection css here*/
+#ContentSection{
+    background: #eee;
+    height: 100vh;/*vh=view height*/
+}
+#ContentSection>article{
+    
+    margin-top: 40px;
+
+}
+.contentleft{
+    width:20%;
+    float: left;
+    background: white;
+}
+.contentMiddle{
+    width:56%;
+    float: left;
+    background: white;
+    margin: 0px 2%;
+}
+.contentRight{
+    width:20%;
+    float: left;
+    background: white;
+    
+}
+.menulist{
+    padding: 15px;
+    margin: 0;
+    list-style: none;
+}
+.menulist li a{
+    color:grey;
+    text-decoration: none;
+    padding:10px;
+    display:inline-block;
+    font-size: 12px;
+    font-weight: lighter;
+    width:100%;
+}
+.contentleft h5{
+    padding: 15px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.menulist li a:hover{
+    border-left:3px solid red;
+    background:#eee;
+    transition: ease-in-out all 0.1s;
+
+}
+.icons_images{
+    height:36px;
+    width:37px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;/*important*/
+    position: relative;
+    top:13px;
+}
+.all_offers_icons{
+    background: url('./Discount_Right_icon-f5105.png');
+    height:36px;
+    width:37px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;/*important*/
+    position: relative;
+    top:13px;
+}
+.Mobile_Tablest_icons{
+    background: url('./30x30mobile2.png');
+    height:36px;
+    width:37px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;/*important*/
+    position: relative;
+    top:13px;
+    filter:grayscale(0);
+}
+.Mobile_Tablest_icons:hover{
+    filter:grayscale(1);
+}
+.Electronics_icons{
+    background: url('./Electronic-6212c.png');
+    height:36px;
+    width:37px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;/*important*/
+    position: relative;
+    top:13px;
+}
+.Computer_Gaming_icons{
+    background: url('./ComputerGaming-a02cf.png');
+    height:36px;
+    width:37px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;/*important*/
+    position: relative;
+    top:13px;
+
+}
+.Home_Kitchen_icons{
+    background: url('./Homekitchenfurnishing-3eda1.jpg');
+    height:36px;
+    width:37px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;/*important*/
+    position: relative;
+    top:13px;
+}
+.contentMiddle h1{
+
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    padding: 10px 64px;
+    text-align: center;
+    text-shadow: 6px 1px 3px #c6003d;
+}
+#display{
+    clear:both;
+    background:yellow;
+    color: #111;
+    border:1px solid #111;
+    padding:10px;
+    height: 200px;
+    width: 200px;
+    display: table;
+    overflow: scroll;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
